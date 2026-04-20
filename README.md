@@ -32,6 +32,14 @@ Insurance portfolios often experience policy lapses and surrenders, which reduce
 ## Business Relevance
 This type of analysis can support retention strategy, risk monitoring, and portfolio management by identifying patterns associated with policy lapse and surrender.
 
+## Sample Output
+
+### Policy Status Distribution
+![Policy Status](screenshots/policy_status_distribution.png)
+
+### Underperforming Policy Rate
+![Underperformance](screenshots/underperformance_rate.png)
+
 ## Example Analysis
 ```sql
 SELECT
@@ -41,10 +49,3 @@ FROM kaggle
 GROUP BY "POLICY STATUS"
 ORDER BY policy_count DESC;
 
-## Sample Output
-
-### Policy Status Distribution
-![Policy Status](screenshots/policy_status_distribution.png)
-
-### Underperforming Policy Rate
-![Underperformance](screenshots/underperformance_rate.png)
