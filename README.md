@@ -36,10 +36,9 @@ This type of analysis can support retention strategy, risk monitoring, and portf
 
 ### Policy Status Distribution
 <img src="screenshots/policy_status_distribution.jpg" width="600"/>
-![Policy Status](screenshots/policy_status_distribution.png)
 
 ### Underperforming Policy Rate
-![Underperformance](screenshots/underperformance_rate.png)
+<img src="screenshots/underperformance_rate.jpg" width="600"/>
 
 ## Example Analysis
 ```sql
