@@ -21,6 +21,9 @@ Insurance portfolios often experience policy lapses and surrenders, which reduce
 - Premium discontinuity is a strong indicator of elevated risk
 - Underwriting class alone is not a strong predictor of policy lapse
 
+## Files
+- `queries.sql` – SQL queries used for policy performance analysis
+
 ## Example Analysis
 ```sql
 SELECT
